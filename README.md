@@ -38,9 +38,11 @@ lessfund is designed to provide a streamlined and efficient way for users to:
 ## 📦 Token Info
 
 - **Name:** lessfund  
-- **Symbol:** LESS *(or your chosen ticker)*  
+- **Symbol:** LESS  
 - **Network:** Base  
-- **Contract Address:** `TBA`
+- **Contract Address:** 0x082D0dc7308b828Ec1b489CD9810e1f8a44F8204  
+
+- **Explorer:** https://basescan.org/address/0x082D0dc7308b828Ec1b489CD9810e1f8a44F8204
 
 ---
 
