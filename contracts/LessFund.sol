@@ -1,3 +1,6 @@
+// LessFund Token Contract
+// Network: Base
+// Contract: 0x082D0dc7308b828Ec1b489CD9810e1f8a44F8204
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
