@@ -1,29 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>lessfund</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lessfund</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0a0a;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .container {
+      padding: 100px 20px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #aaa;
+      font-size: 18px;
+    }
+
+    .card {
+      margin-top: 40px;
+      padding: 20px;
+      background: #111;
+      border-radius: 10px;
+      display: inline-block;
+      text-align: left;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .footer {
+      margin-top: 80px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .highlight {
+      color: #00ff9f;
+    }
+  </style>
 </head>
 
-<body style="margin:0; font-family:sans-serif; background:#0a0a0a; color:white;">
+<body>
 
-  <div style="text-align:center; padding:100px 20px;">
-    <h1 style="font-size:48px; margin-bottom:10px;">lessfund</h1>
-    <p style="font-size:18px; color:#aaa;">
-      Low-cost DeFi funding protocol on Base
-    </p>
+  <div class="container">
+    <h1>lessfund</h1>
+    <p>Low-cost DeFi funding protocol on Base</p>
 
-    <div style="margin-top:30px;">
-      <a href="https://github.com/ulsreall/lessfund" target="_blank"
-         style="padding:10px 20px; background:white; color:black; text-decoration:none; border-radius:6px;">
-        GitHub
-      </a>
+    <div>
+      <a class="btn" href="https://github.com/ulsreall/lessfund" target="_blank">GitHub</a>
+      <a class="btn" href="https://basescan.org/address/0x082D0dc7308b828Ec1b489CD9810e1f8a44F8204" target="_blank">View Contract</a>
     </div>
 
-    <p style="margin-top:20px; color:#888;">
-      Token: LESS<br>
-      Network: Base
-    </p>
+    <div class="card">
+      <h3>📦 Token Info</h3>
+      <p><b>Name:</b> lessfund</p>
+      <p><b>Symbol:</b> LESS</p>
+      <p><b>Network:</b> Base</p>
+      <p><b>Contract:</b><br>
+      <span class="highlight">0x082D0dc7308b828Ec1b489CD9810e1f8a44F8204</span></p>
+    </div>
+
+    <div class="card">
+      <h3>🚀 Vision</h3>
+      <p>
+        lessfund aims to simplify decentralized funding with minimal cost,
+        making DeFi more accessible for everyone.
+      </p>
+    </div>
+
+    <div class="footer">
+      lessfund © 2026 — Built on Base
+    </div>
   </div>
 
 </body>
